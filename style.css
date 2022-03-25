@@ -36,6 +36,13 @@ p{
   border-radius: 10%;
 }
 
+.btn-fun:hover{
+  background-color: var(--red);
+  color: white;
+  border: none;
+  border-radius: 10%;
+}
+
 .cover-img {
   background-image: url(assets/ADFCFACE-62BF-4413-920A-A30F529BBD54.JPG) ;
   background-size: cover;
@@ -84,4 +91,5 @@ p{
 
 .card-light{
   background-color: #ffffff86;
+  border-radius: 20px;
 }
