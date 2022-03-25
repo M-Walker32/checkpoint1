@@ -1,0 +1,47 @@
+:root{
+  --primary: #d81124!important;
+  --secondary: #fcb823!important;
+  --tri: #3592ff!important;
+  --grey: #d3d3d3!important;
+}
+
+.cover-img {
+  background-image: url(assets/ADFCFACE-62BF-4413-920A-A30F529BBD54.JPG) ;
+  background-size: cover}
+
+.img-size-1{
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.background-primary{
+  background-color: var(--primary);
+}
+
+.background-secondary{
+  background-color: var(--secondary);
+}
+
+.background-tri{
+  background-color: var(--tri);
+}
+
+.background-grey{
+  background-color: var(--grey);
+}
+
+.text-primary{
+  color: var(--primary)!important;
+}
+
+.text-secondary{
+  color: var(--secondary)!important;
+}
+
+.text-tri{
+  color: var(--tri);
+}
+
+.text-grey{
+  color: var(--grey);
+}
