@@ -1,47 +1,87 @@
 :root{
-  --primary: #d81124!important;
-  --secondary: #fcb823!important;
-  --tri: #3592ff!important;
+  --red: #d81124!important;
+  --yellow: #fcb823!important;
+  --blue: #3592ff!important;
   --grey: #d3d3d3!important;
+}
+
+/* @media only screen and (max-width 768px) {} */
+
+i{
+  color:var(--red);
+  font-size: 30px;
+}
+
+label{
+  font-size: .75em;
+}
+
+h1{
+  font-family: 'Space Grotesk', Arial, Helvetica, sans-serif;
+}
+
+h2{
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.151);
+  font-family: 'Space Grotesk', Arial, Helvetica, sans-serif;
+}
+
+p{
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+.btn-fun{
+  background-color: var(--yellow);
+  color: white;
+  border: none;
+  border-radius: 10%;
 }
 
 .cover-img {
   background-image: url(assets/ADFCFACE-62BF-4413-920A-A30F529BBD54.JPG) ;
-  background-size: cover}
+  background-size: cover;
+  margin-top: 100px;
+}
 
 .img-size-1{
   max-width: 100px;
   max-height: 100px;
 }
-
-.background-primary{
-  background-color: var(--primary);
+#img-size-2{
+  max-width: 100%;
 }
 
-.background-secondary{
-  background-color: var(--secondary);
+.background-red{
+  background-color: var(--red);
 }
 
-.background-tri{
-  background-color: var(--tri);
+.background-yellow{
+  background-color: var(--yellow);
+}
+
+.background-blue{
+  background-color: var(--blue);
 }
 
 .background-grey{
   background-color: var(--grey);
 }
 
-.text-primary{
-  color: var(--primary)!important;
+.text-red{
+  color: var(--red)!important;
 }
 
-.text-secondary{
-  color: var(--secondary)!important;
+.text-yellow{
+  color: var(--yellow)!important;
 }
 
-.text-tri{
-  color: var(--tri);
+.text-blue{
+  color: var(--blue);
 }
 
 .text-grey{
   color: var(--grey);
+}
+
+.card-light{
+  background-color: #ffffff86;
 }
