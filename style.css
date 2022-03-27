@@ -5,11 +5,33 @@
   --grey: #d3d3d3!important;
 }
 
+a{
+  text-decoration: none!important;
+  padding: 5px;
+}
+
 /* @media only screen and (max-width 768px) {} */
+
+@media only screen and (min-width: 768px) {
+  #white-spill-card {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+  }
+  .row{
+    position:relative;
+  }
+}
 
 i{
   color:var(--red);
   font-size: 30px;
+  animation: ease-in;
+  animation-duration: .2;
+}
+
+i:hover{
+  color:var(--yellow)
 }
 
 label{
@@ -41,6 +63,7 @@ p{
   color: white;
   border: none;
   border-radius: 10%;
+  transform: scale(1.25);
 }
 
 .cover-img {
@@ -92,4 +115,14 @@ p{
 .card-light{
   background-color: #ffffff86;
   border-radius: 20px;
+  margin-right: 10px;
+}
+
+.zoom{
+  transition: transform .2s;
+  max-width: 100%;
+}
+
+.zoom:hover {
+  transform: scale(1.25);
 }
